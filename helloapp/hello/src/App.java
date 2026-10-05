@@ -24,7 +24,10 @@ public class App {
         // int [] numbers = {5, 2, 4, 1, 3};
         // Arrays.sort(numbers);
         // System.out.println(Arrays.toString(numbers));
-        int [][] numbers = { {1, 2, 3}, {4, 5, 6}};
-        System.out.println(Arrays.deepToString(numbers));
+        // int [][] numbers = { {1, 2, 3}, {4, 5, 6}};
+        // System.out.println(Arrays.deepToString(numbers));
+        // constants
+        final float PI = 3.14F;
+        System.out.println(PI);
     }
 }
