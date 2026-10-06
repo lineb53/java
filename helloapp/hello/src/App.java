@@ -1,6 +1,6 @@
-import java.awt.Point;
-import java.util.Arrays;
-import java.util.Date;
+// import java.awt.Point;
+// import java.util.Arrays;
+// import java.util.Date;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -27,7 +27,9 @@ public class App {
         // int [][] numbers = { {1, 2, 3}, {4, 5, 6}};
         // System.out.println(Arrays.deepToString(numbers));
         // constants
-        final float PI = 3.14F;
-        System.out.println(PI);
+        // final float PI = 3.14F;
+        // System.out.println(PI);
+        int result = (int) (Math.random() * 100);
+        System.out.println(result);
     }
 }
