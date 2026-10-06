@@ -35,8 +35,11 @@ public class App {
         // int result = (int) (Math.random() * 100);
         // System.out.println(result);
         //curency
-        NumberFormat currency = NumberFormat.getCurrencyInstance();
-        String result = currency.format(1234567.891);
-        System.out.println(result);
+        // NumberFormat currency = NumberFormat.getCurrencyInstance();
+        // String result = currency.format(1234567.891);
+        // System.out.println(result);
+        //percentage
+        String result = NumberFormat.getPercentInstance().format(0.1);
+        System.out.println(result);        
     }
 }
