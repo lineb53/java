@@ -50,7 +50,7 @@ public class App {
         //input text
         Scanner scanner2 = new Scanner(System.in);
         System.out.print("Name ");
-        String name = scanner2.next();
+        String name = scanner2.nextLine().trim();
         System.out.println("You are " + name);     
     }
 }
