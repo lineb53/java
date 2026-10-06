@@ -2,6 +2,8 @@
 // import java.util.Arrays;
 // import java.util.Date;
 
+import java.text.NumberFormat;
+
 public class App {
     public static void main(String[] args) throws Exception {
         // System.out.println("Hello, World!");
@@ -29,7 +31,12 @@ public class App {
         // constants
         // final float PI = 3.14F;
         // System.out.println(PI);
-        int result = (int) (Math.random() * 100);
+        //random number
+        // int result = (int) (Math.random() * 100);
+        // System.out.println(result);
+        //curency
+        NumberFormat currency = NumberFormat.getCurrencyInstance();
+        String result = currency.format(1234567.891);
         System.out.println(result);
     }
 }
