@@ -3,6 +3,7 @@
 // import java.util.Date;
 
 import java.text.NumberFormat;
+import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -39,7 +40,17 @@ public class App {
         // String result = currency.format(1234567.891);
         // System.out.println(result);
         //percentage
-        String result = NumberFormat.getPercentInstance().format(0.1);
-        System.out.println(result);        
+        // String result = NumberFormat.getPercentInstance().format(0.1);
+        // System.out.println(result); 
+        //input numbers
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Age: ");
+        byte age = scanner.nextByte();
+        System.out.println("You are " + age); 
+        //input text
+        Scanner scanner2 = new Scanner(System.in);
+        System.out.print("Name ");
+        String name = scanner2.next();
+        System.out.println("You are " + name);     
     }
 }
